@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    }
+
+.flex {
+    display: flex;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("imgs/spiritbox\ background.png");
+
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 200px; 
+}
+
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header a{
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover {
+    color:rgb(104, 29, 114);
+    transform: scale(1.075);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color:rgb(194, 118, 204);
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px beige;
+    transform: scale(1.075);
+    transition: .2s;
+}
+
+section.top {
+    padding: 40px 4%;
+}
+
+section .top .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+} 
+
+.top h1 {
+    color: #fff;
+    font-size: 80px;
+    line-height: 60px;
+    
+}
+.top p {
+    padding: 50px;
+    color: #fff;
+    font-size: 40px;
+}
+.top h1 span {
+    color: rgb(126, 6, 139); 
+}
+.top .img-top img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+.img-top > a > img{
+    border-radius: 50%;
+}
+
+@keyframes flutuar {
+    
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
