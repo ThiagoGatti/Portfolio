@@ -104,7 +104,7 @@ section .top .flex {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
-.img-top > a > img{
+.img-top > a > img {
     border-radius: 50%;
 }
 
